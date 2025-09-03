@@ -5,6 +5,9 @@ Priority: optional
 Rules-Requires-Root: no
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 12), build-essential, librtlsdr-dev, libsoapysdr-dev, libasound-dev, libsndfile1-dev, libacars-dev, libcjson-dev, libpaho-mqtt-dev
+Vcs-Browser: https://github.com/f00b4r0/acarsdec
+Vcs-Git: https://github.com/f00b4r0/acarsdec.git
+
 Package: acarsdec
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
