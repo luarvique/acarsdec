@@ -1,0 +1,13 @@
+Source: acarsdec
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Section: hamradio
+Priority: optional
+Rules-Requires-Root: no
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12), build-essential, librtlsdr-dev, libsoapysdr-dev, libasound-dev, libsndfile1-dev, libacars-dev, libcjson-dev, libpaho-mqtt-dev
+Package: acarsdec
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
